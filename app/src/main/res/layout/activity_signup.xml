@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.SignUpActivity"
+    android:background="@drawable/ic_background2">
+
+
+    <TextView
+        android:id="@+id/signUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sign up"
+        android:textColor="@color/white"
+        android:textSize="42sp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="125dp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/signUp"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/hint_email"
+        android:textColorHint="#676565"
+        android:padding="6dp"
+        android:background="@drawable/custom_input"
+        android:textSize="14sp"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="225dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:layout_below="@+id/email"
+        android:layout_centerHorizontal="true"
+        android:hint="@string/hint_password"
+        android:textColorHint="#676565"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/custom_input"
+        android:padding="6dp"
+        android:textColor="@color/black"
+        android:textSize="14sp"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/register"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/custom_pink"/>
+
+    <TextView
+        android:id="@+id/linkLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/submit"
+        android:text="Already have An Account? Login"
+        android:textColor="#978fa6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"/>
+
+</RelativeLayout>

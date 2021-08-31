@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "15652884669",
+    "project_id": "scavenger-263a9",
+    "storage_bucket": "scavenger-263a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15652884669:android:5eee00ec2cfdd6669067d4",
+        "android_client_info": {
+          "package_name": "com.grumpy.scavengerhunt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15652884669-67564981neauolte1e1hihh8kghasr26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0JIQTE-HW0BN5R4pxYdtEVjeXBCfV-P0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15652884669-67564981neauolte1e1hihh8kghasr26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15652884669:android:7a4890f7771c4ae09067d4",
+        "android_client_info": {
+          "package_name": "com.grumpy.scavengerhunt11"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "15652884669-67564981neauolte1e1hihh8kghasr26.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC0JIQTE-HW0BN5R4pxYdtEVjeXBCfV-P0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "15652884669-67564981neauolte1e1hihh8kghasr26.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

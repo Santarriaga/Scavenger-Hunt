@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/logOut"
+        android:title="Sign Out"
+        android:icon="@drawable/ic_signout"/>
+    <item android:id="@+id/about"
+        android:title="About"
+        android:icon="@drawable/logo"/>
+
+</menu>

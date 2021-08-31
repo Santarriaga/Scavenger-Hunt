@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">ScavengerHunt</string>
+    <string name="user_name">User Name</string>
+
+    <string name="hint_user">Username</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="placeHolder">9</string>
+    <string name="year_placeholder">Year</string>
+    <string name="month_placeholder">Month</string>
+    <string name="search">Search</string>
+    <string name="profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+
+</resources>
